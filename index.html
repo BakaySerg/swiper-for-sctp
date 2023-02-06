@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+	<title>modal</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+	<!-- <meta name="description" content="site descr"/> -->
+	<!-- <meta name="keywords" content="site,keywords,separated,by,commas"/> -->
+	<!-- <meta name="MS.LOCALE" content="EN-US"/> -->
+	<!-- <meta name="rating" content="General"/> -->
+	<!-- <meta name="robots" content="index,follow"/> -->
+	<!-- <meta name="revisit-after" content="14 days"/> -->
+	<!-- <meta name="copyright" content="www.domain.com"/> -->
+	<!-- <meta name="author" content="www.domain.com"/> -->
+	<!-- <meta name="url" content="http://domain.com"/> -->
+
+	<!-- <link rel="canonical" href="http://www.domain.com"/> -->
+	<!-- <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon"/> -->
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"/> -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+
+
+	<!--[if lt IE 11]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<body>
+		<div class="wrapper">
+			<button id="btn" type="button">Відкрити слайдер</button>
+			<div id="modal" class="modal">
+				<div class="modal__body">
+					<button id="btn_close" type="button" class="modal__close" aria-label="Close modal"></button>
+					<div class="modal__title">Інформаційний лендінг про нашу платформу</div>
+					<div class="modal__slider">
+						<div class="swiper-wrapper">
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-1.jpg, img/screen-1-2x.jpg 2x" src="img/screen-1.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-2.jpg, img/screen-2-2x.jpg 2x" src="img/screen-2.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-3.jpg, img/screen-3-2x.jpg 2x" src="img/screen-3.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-4.jpg, img/screen-4-2x.jpg 2x" src="img/screen-4.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-5.jpg, img/screen-5-2x.jpg 2x" src="img/screen-5.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-6.jpg, img/screen-6-2x.jpg 2x" src="img/screen-6.jpg" alt="screen" width="406" height="584">
+							</div>
+							<div class="modal__slide swiper-slide">
+								<img loading="lazy" srcset="img/screen-7.jpg, img/screen-7-2x.jpg 2x" src="img/screen-7.jpg" alt="screen" width="406" height="584">
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+					<div class="modal__action">
+						<a class="modal__link" href="#">Ознайомитися</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
